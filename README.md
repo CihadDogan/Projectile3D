@@ -4,8 +4,8 @@ Simple trajectory creator for projectile motion with line renerer in Unity. Exam
 # How To Use
 1. Create empty game object.
 2. Assign TrajectoryCreator.cs component to it.
-3. Assign a material to automatically created line renderer. (Otherwise it will be pink)
-4. Start the scene. Default trajectory will be created.
+3. Assign a material to automatically created line renderer. (Otherwise trajectory will be pink)
+4. Start the scene and play with trajectory properties.
 
 Trajectory settings:
 
