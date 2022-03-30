@@ -43,6 +43,9 @@ public class TrajectoryCreator : MonoBehaviour
     public float GravityYForce = -9.81f;
     private bool IsInitialized = false;
 
+    /// <summary>
+    /// To automatically initialize the component.
+    /// </summary>
     void Start()
     {
         Initialize();
