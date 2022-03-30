@@ -81,7 +81,6 @@ public class TrajectoryCreator : MonoBehaviour
 
             direction = Quaternion.Euler(-PitchAngle, YawAngle, 0) * direction;
 
-
             // Limit some values
             if (PositionStep < 3)
                 PositionStep = 3;
