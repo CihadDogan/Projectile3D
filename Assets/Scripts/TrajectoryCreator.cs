@@ -78,6 +78,16 @@ public class TrajectoryCreator : MonoBehaviour
 
             direction = Quaternion.Euler(-PitchAngle, YawAngle, 0) * direction;
 
+
+            // Limit some values
+            if (PositionStep < 3)
+                PositionStep = 3;
+            if (MaxProjectileLength < 0.001f)
+                MaxProjectileLength = 0.001f;
+            if (VelocityMagnitude < 0f)
+                VelocityMagnitude = 0f;
+
+            // Draw the trajectory
             float timeStep = MaxProjectileLength / (PositionStep * VelocityMagnitude);
             MLineRenderer.positionCount = PositionStep + 1;
             for (int i = 0; i < MLineRenderer.positionCount; i++)
