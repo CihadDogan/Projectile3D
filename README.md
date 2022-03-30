@@ -1,5 +1,5 @@
 # Projectile3D
-Simple trajectory creator for projectile motion with line renerer in Unity. Project developed in Unity 2020.3.30f1. You can just grab "TrajectoryCreator.cs" script inside Assets/Scripts folder or download and check SampleScene.
+Simple trajectory creator for projectile motion with line renerer in Unity. Example project developed in Unity 2020.3.30f1. You can just grab "TrajectoryCreator.cs" script inside Assets/Scripts folder or download and check SampleScene.
 
 # How To Use
 1. Create empty game object.
