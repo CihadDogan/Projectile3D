@@ -11,6 +11,6 @@ Trajectory settings:
 
 ![](Recordings/Inspector.PNG)
 
-Sample trajectory settings:
+Sample trajectory visual:
 
 ![](Recordings/sample.gif)
